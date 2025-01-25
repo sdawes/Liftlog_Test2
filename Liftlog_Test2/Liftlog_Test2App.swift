@@ -14,4 +14,5 @@ struct Liftlog_Test2App: App {
             ContentView()
         }
     }
+    .modelContainer(for: Exercise.self)
 }
