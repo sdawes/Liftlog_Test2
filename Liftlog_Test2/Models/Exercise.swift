@@ -14,7 +14,7 @@ class Exercise {
     var category: String
     var notes: String
 
-    init(name: String, category: String, notes: String) {
+    init(name: String = "", category: String = "", notes: String = "") {
         self.name = name
         self.category = category
         self.notes = notes
